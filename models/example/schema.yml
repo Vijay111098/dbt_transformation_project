@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+    - name: sales_summary
+      description: "A starter dbt model"
+      columns:
+          - name: total_sales
+            description: "The primary key for this table"
+            tests:
+                - not_null
